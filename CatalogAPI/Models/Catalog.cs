@@ -13,12 +13,13 @@ namespace CatalogAPI.Models
         [Key]
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         [Required]
+	//user3 modify
         [Column("Catalog_Id")]
         public long CatalogId { get; set; }
         [Column("Catalog_Name")]
         [Required]
         [StringLength(50)]
-	//user3 modifying the code
+	//user2 modifying the code
 
         public string? CatalogName { get; set; }
 
