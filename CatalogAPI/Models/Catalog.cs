@@ -15,6 +15,7 @@ namespace CatalogAPI.Models
         [Required]
 	//user3 modify
 	//user2 modify
+	//user3 add catalog
         [Column("Catalog_Id")]
         public long CatalogId { get; set; }
         [Column("Catalog_Name")]
